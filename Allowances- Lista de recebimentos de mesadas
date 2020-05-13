@@ -1,0 +1,66 @@
+private int iId;
+     private String CreationDate;
+     private String Description;
+     private Double Value;
+     private int Importance;
+
+Allowance public ( @Nullable  String CreationDate , String  Description , Double Value ,int Importance ) {
+        CreationDate = creationDate;
+        Description = descrição;
+        Value = valor;
+        Importance = importância;
+    }
+    @PrimaryKey ( autoGenerate  =  true )
+    @NonNull
+    @ColumnInfo ( Description =  " AllowanceId " )
+    private  int iId;
+
+    @Nullable
+    @ColumnInfo ( Description  =  " AllowanceName " )
+    private  String iDescription;
+}
+
+public  int  getId () {
+        return iID;
+    }
+
+    public  void  setId ( int  id ) {
+        iId = id;
+    }
+
+    public  String  getDescription () {
+        return iDescription;
+    }
+
+    public  void  setName ( nome da string  ) {
+        iName = Description;
+    }
+
+    public  String  getValue() {
+        return iValue;
+    }
+
+    public  void  setValue ( valor da String  ) {
+        iValue = valor;
+    }
+
+    public  int  getImportance () {
+        retornar iImportance;
+    }
+
+    público  vazio  setImportance ( int  Importance ) {
+        iIportance = importância;
+    }
+
+    public  String  getCreationDate () {
+        return iCreationDate;
+    }
+
+    public  void  setCreationDate ( String  creationDate ) {
+        iCreationDate = creationDate;
+    }
+
+    private  int iImportance;
+    private  String iCreationDate;
+
+}
